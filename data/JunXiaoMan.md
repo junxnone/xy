@@ -3,7 +3,7 @@
 - age: show
 - mention: https://github.com/{@mention}
 - theme: light
-- year-length: 300
+- year-length: 1000
 
 
 ## Date

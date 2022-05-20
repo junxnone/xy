@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Markline</title>
+  <title>Jun&XiaoMan</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="format-detection" content="telephone=no">
   <style type="text/css" media="screen">
@@ -15,24 +15,24 @@
       -webkit-text-size-adjust: none;
     }
   </style>
-  <link rel="stylesheet" type="text/css" href="assets/timeline.css" media="all" />
-  <script src="assets/sea.js"></script>
+  <link rel="stylesheet" type="text/css" href="../assets/markline/0.6.0/timeline.css" media="all" />
+  <script src="../assets/seajs/2.3.0/sea.js"></script>
   <script>
     seajs.config({
-      base: "./",
+      base: "../assets",
       alias: {
-        "jquery":"assets/jquery.js",
-        "markline":"assets/markline.js"
+        "jquery":"jquery/2.1.1/jquery.js",
+        "markline":"markline/0.6.0/markline.js"
       }
     });
   </script>
   <script>
     seajs.use(["jquery", "markline"], function($, Markline){
       $(function(){
-        $.get("data/JunXiaoMan.md", function(markdown){
+        $.get("./data/JunXiaoMano.md", function(markdown){
           var mark = new Markline("#life", markdown);
           mark.render();
-          document.title = (mark.data.title || "JunXiaoMan").replace(/<[^>]+>/g, "");
+          document.title = (mark.data.title || "timeline.md").replace(/<[^>]+>/g, "");
         });
       });
     });

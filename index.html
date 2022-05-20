@@ -42,6 +42,12 @@
   <div id="loading" style="display:none;">
     <img src="img/sk.gif"/>
   </div>
+  <script>
+  $("#loading").show();
+    setInterval(function(){
+      $("#loading").fadeOut();
+    },3000);
+  </script>
   <div id="life"></div>
 </body>
 </html>

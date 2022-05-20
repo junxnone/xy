@@ -32,7 +32,7 @@
         $.get("data/JunXiaoMan.md", function(markdown){
           var mark = new Markline("#life", markdown);
           mark.render();
-          document.title = (mark.data.title || "JunXiaoMan.md").replace(/<[^>]+>/g, "");
+          document.title = (mark.data.title || "data/JunXiaoMan.md").replace(/<[^>]+>/g, "");
         });
       });
     });

@@ -4,7 +4,7 @@
 - mention: https://github.com/{@mention}
 
 ## Date
-- 2021/01/12-~
+- 2021/01/12~
 - 2021-01-12 Wechat
 - 2021-01-17 FD 浦东江边
 - 2021-01-30 FMovie

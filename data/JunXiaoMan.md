@@ -2,6 +2,9 @@
 
 - age: show
 - mention: https://github.com/{@mention}
+- theme: light
+- year-length: 300
+
 
 ## Date
 - 2021/01~ 我们相遇这么久了

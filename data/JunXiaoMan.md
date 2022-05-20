@@ -47,4 +47,4 @@
   - 2022-03-18 我被隔离在了小区
   - 2022/03/28 SH 开启鸳鸯锅模式
   - 2022/04/03 SH 封城
-- 2022-05-20 生日快乐 ![alt](https://raw.githubusercontent.com/junxnone/xy/main/img/sk.gif)
+- 2022-05-20  ![alt](https://raw.githubusercontent.com/junxnone/xy/main/img/sk.gif) 生日快乐

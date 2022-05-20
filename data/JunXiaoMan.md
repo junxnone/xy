@@ -1,9 +1,7 @@
 # Jun&XiaoMan 
 
 - age: show
-- mention: https://github.com/{@mention}
-- theme: light
-- year-length: 1000
+
 
 
 ## Date
